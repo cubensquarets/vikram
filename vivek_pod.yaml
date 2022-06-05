@@ -19,6 +19,7 @@ spec:
     resources: 
       requests:
          cpu: 30m
+         memory: 30Mi
     terminationMessagePath: /dev/termination-log
     terminationMessagePolicy: File
     volumeMounts:
